@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vishwajit Hulawale | AWS Cloud &amp; DevOps Intern Candidate</title>
+<meta name="description" content="Portfolio of Vishwajit Hulawale, final-year IT student seeking an AWS Cloud / DevOps internship. EC2, S3, Linux, Nginx, Apache Tomcat, Bash.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=JetBrains+Mono:wght@400;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav" id="top">
+  <a class="brand" href="#home">Vishwajit Hulawale</a>
+  <button class="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#education">Education</a><a href="#certifications">Certifications</a><a href="#contact" class="pill">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="kicker">AWS Cloud / DevOps intern candidate</p>
+    <h1>Vishwajit Hulawale</h1>
+    <p class="lead">Final-year Information Technology student building hands-on skills in AWS, Linux and web servers, and looking for an internship where I can learn production cloud operations.</p>
+    <div class="cta">
+      <a class="btn primary" href="assets/Vishwajit-Hulawale-Resume.pdf" download>Download resume</a>
+      <a class="btn" href="#projects">See my projects</a>
+    </div>
+    <div class="social">
+      <a href="https://github.com/vishwajit491" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/vishwajit-hulawale-88051b434/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+  <div class="term" aria-label="Terminal animation showing Linux commands">
+    <div class="term-bar"><i></i><i></i><i></i><span>bash: ec2 instance</span></div>
+    <pre id="term" aria-live="off"></pre>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About me</h2>
+  <div class="about">
+    <p>I'm a final-year Information Technology student in Pune. I'm seeking an AWS Cloud / DevOps internship where I can apply my hands-on experience with EC2, S3, Linux, Apache, Nginx, SSH, Bash scripting and load balancing.</p>
+    <p>I want to learn how production cloud systems are run, help improve reliability, and contribute to a collaborative engineering team.</p>
+    <ul class="facts">
+      <li><b>Location</b> Pune, Maharashtra, India</li>
+      <li><b>Focus</b> AWS Cloud, Linux, DevOps</li>
+      <li><b>Studying</b> B.Tech, Information Technology</li>
+      <li><b>Preparing</b> AWS Cloud Practitioner</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Technical skills</h2>
+  <div class="grid skills">
+    <article class="card hl"><h3>Cloud (AWS)</h3><div class="tags"><span>EC2</span><span>S3</span><span>IAM basics</span><span>Elastic Load Balancing (ALB)</span><span>Regions</span><span>Security-group concepts</span></div></article>
+    <article class="card"><h3>Operating systems</h3><div class="tags"><span>Linux</span><span>Red Hat Linux</span><span>Windows Server</span><span>Terminal administration</span></div></article>
+    <article class="card"><h3>Web &amp; networking</h3><div class="tags"><span>Apache Tomcat</span><span>Apache HTTP Server</span><span>Nginx</span><span>HTTP/HTTPS</span><span>SSH</span><span>RDP</span></div></article>
+    <article class="card"><h3>Scripting &amp; tools</h3><div class="tags"><span>Bash scripting</span><span>chmod</span><span>PuTTY</span></div></article>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>AWS &amp; Linux hands-on projects</h2>
+  <div class="filters" role="group" aria-label="Filter projects">
+    <button class="chip on" data-f="all">All</button><button class="chip" data-f="aws">AWS</button>
+    <button class="chip" data-f="linux">Linux</button><button class="chip" data-f="web">Web servers</button>
+  </div>
+  <div class="grid projects">
+    <article class="card proj" data-t="aws linux">
+      <h3>EC2 Web Server Deployment</h3><p class="stack">AWS EC2, Linux, Bash</p>
+      <p>Launched Linux/Red Hat EC2 instances and configured web servers with user data (Bash). Used SSH to connect, install packages and verify services.</p>
+    </article>
+    <article class="card proj" data-t="web">
+      <h3>Apache Tomcat HTTPS Practice Lab</h3><p class="stack">Apache Tomcat, HTTPS</p>
+      <p>Practiced Tomcat server setup and HTTPS configuration. Created an index.html landing page and validated browser access.</p>
+    </article>
+    <article class="card proj" data-t="aws web">
+      <h3>Static Website Hosting on Amazon S3</h3><p class="stack">S3, HTML/CSS</p>
+      <p>Created and hosted a static website using an S3 bucket. Configured website access and tested the hosted page.</p>
+    </article>
+    <article class="card proj" data-t="aws linux web">
+      <h3>Nginx Website &amp; Load Balancer Lab</h3><p class="stack">Nginx, EC2, ELB</p>
+      <p>Configured Nginx on Linux, created a custom website, and practiced routing traffic through a load balancer across web servers.</p>
+    </article>
+    <article class="card proj" data-t="aws linux">
+      <h3>Linux Administration &amp; Secure Connectivity</h3><p class="stack">SSH, PuTTY, Bash</p>
+      <p>Connected to Linux servers using PuTTY/SSH, wrote two Bash scripts, made them executable with chmod +x, and practiced SSH communication between two EC2 instances in the same AWS region.</p>
+    </article>
+  </div>
+  <p class="note">More work is on my <a href="https://github.com/vishwajit491" target="_blank" rel="noopener noreferrer">GitHub profile</a>.</p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <article class="card edu">
+    <h3>Bachelor of Technology (B.Tech.), Information Technology</h3>
+    <p>Trinity Academy of Engineering / SPPU University, Pune, Maharashtra</p>
+    <p class="stack">Currently pursuing</p>
+  </article>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <article class="card edu">
+    <h3>AWS Certified Cloud Practitioner</h3>
+    <p class="stack">In preparation</p>
+  </article>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="lead">I'm open to AWS Cloud and DevOps internship opportunities. Reach out on any of these:</p>
+  <div class="cta">
+    <a class="btn primary" href="tel:+919322417206">Call +91 93224 17206</a>
+    <a class="btn" href="https://www.linkedin.com/in/vishwajit-hulawale-88051b434/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a class="btn" href="https://github.com/vishwajit491" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a class="btn" href="assets/Vishwajit-Hulawale-Resume.pdf" download>Download resume</a>
+  </div>
+</section>
+</main>
+<footer><p>© <span id="yr"></span> Vishwajit Hulawale · Pune, India</p><a href="#top">Back to top</a></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
